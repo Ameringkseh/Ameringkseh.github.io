@@ -1,0 +1,74 @@
+/* Gaya untuk Halaman 404 */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kontainer untuk Halaman 404 */
+.container-404 {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Animasi teks 404 */
+.container-404 h1 {
+    font-size: 120px;
+    color: #e74c3c;
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+.container-404 p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Tombol "Kembali ke Beranda" */
+.container-404 .back-home {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    animation: pulse 2s infinite;
+}
+
+/* Animasi untuk hover pada tombol */
+.container-404 .back-home:hover {
+    background-color: #1f618d;
+    transform: translateY(-5px);
+}
+
+/* Keyframes untuk animasi bounce teks 404 */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Keyframes untuk animasi pulse pada tombol */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(41, 128, 185, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(41, 128, 185, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(41, 128, 185, 0);
+    }
+}
