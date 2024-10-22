@@ -59,7 +59,7 @@
   
   /* Hero Section */
   .hero {
-    height: 50vh;
+    height: 100vh;
     background: url('img/square.jpg') center/cover no-repeat;
     display: flex;
     justify-content: center;
