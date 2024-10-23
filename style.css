@@ -232,7 +232,7 @@
     
     .menu-items li a {
       color: #000;
-      border-color: none;
+      border-bottom: none;
     }
     
     .menu-items.active {
