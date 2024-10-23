@@ -232,6 +232,7 @@
     
     .menu-items li a {
       color: #000;
+      border-color: none;
     }
     
     .menu-items.active {
