@@ -1,8 +1,10 @@
 // Navbar toggle for small screens
-const burger = document.querySelector('.burger');
-const navLinks = document.querySelector('.nav-links');
+document.querySelector('.burger-menu').addEventListener('click', function() {
+  document.querySelector('.menu-items').classList.toggle('active');
+});
 
 burger.addEventListener('click', () => {
   navLinks.classList.toggle('nav-active');
   burger.classList.toggle('toggle');
 });
+
