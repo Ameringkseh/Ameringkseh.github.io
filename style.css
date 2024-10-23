@@ -97,7 +97,9 @@
     margin: auto;
     margin-top: 20px;
   }
-  
+   .a {
+    text-align: justify;
+   }
   /* Skills Section */
   .skills {
     padding: 50px 0;
